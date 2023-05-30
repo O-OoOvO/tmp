@@ -1,6 +1,7 @@
 print('Namaste Reader!This is a random story generator by Shushant Kumar Awasthi ')
 import random
-
+import time
+random.seed(time.time())
 
 names = [' Aditya',' Harshit',' Ajay',' Ishaan',' Virat',' Anil',' Sahil',' Nikhil',' Iswar','Aman','Krishna','Mohit','Pranav','Shaurya']
 
